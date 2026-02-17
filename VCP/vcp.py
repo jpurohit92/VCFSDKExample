@@ -1,3 +1,11 @@
+"""
+vSphere Configuration Profile API, Python Sample
+Author: Jatin Purohit 
+Title: Product Marketing Engineer, Broadcom 
+API Blog Post: https://blogs.vmware.com/cloud-foundation/2026/01/22/vsphere-configuration-profile/ 
+"""
+
+
 import requests
 import urllib3
 import json
