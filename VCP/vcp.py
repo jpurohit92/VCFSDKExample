@@ -114,7 +114,7 @@ draft_config = draft_service.export_config(cluster="domain-c10", draft=draft_id)
 print(draft_config)
 data = vars(draft_config).copy()
 
-# If 'config' is a JSON string, parse it to a dict
+# parse 'Config' data to dictionary 
 if isinstance(data.get("config"), str):
     try:
         data["config"] = json.loads(data["config"])
